@@ -7,12 +7,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 If you haven't installed node and npm, follow the steps [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-To install the necessary node_modules:\
-### `npm install`
+### To install the necessary node_modules:
+`npm install`
 
-To run the app in developer mode:\
+### To run the app in developer mode:
 
-### `npm start`
+`npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
