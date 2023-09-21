@@ -14,23 +14,30 @@
   justify-items: center;
 }
 
-.App-Header h1 {
+.App-Header--Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-Header--Text h1 {
   font-size: 69px;
   font-weight: 700;
   line-height: 69px;
   margin: 8px 0;
 }
 
-.App-Header h2 {
+.App-Header--Text h2 {
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
 }
 
-.App-Header--Text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (max-width: 1025px) {
+  .App-Header--Text h1 {
+    font-size: 54px;
+    line-height: 54px;
+  }
 }
 
 @media (max-width: 769px) {
@@ -47,12 +54,12 @@
     text-align: center;
   }
 
-  .App-Header h1 {
+  .App-Header--Text h1 {
     font-size: 36px;
     line-height: 36px;
   }
 
-  .App-Header h2 {
+  .App-Header--Text h2 {
     font-size: 18px;
     line-height: 24px;
   }

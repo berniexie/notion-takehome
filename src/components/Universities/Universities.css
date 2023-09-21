@@ -6,7 +6,7 @@
 }
 
 .Universities--Search {
-  max-width: 384px;
+  width: 384px;
   border: 2px solid #eeeeee;
   height: 44px;
   border-radius: 4px;
@@ -65,6 +65,10 @@
 }
 
 @media (max-width: 769px) {
+  .Universities--Search {
+    width: 100%;
+  }
+
   .Universities {
     margin-top: 0px;
   }
