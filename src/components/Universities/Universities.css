@@ -65,6 +65,10 @@
 }
 
 @media (max-width: 769px) {
+  .Universities {
+    margin-top: 0px;
+  }
+
   .Universities--Table {
     grid-template-columns: 1fr;
   }
