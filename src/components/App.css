@@ -1,0 +1,59 @@
+.App {
+  max-width: 1200px;
+  margin: 16px auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.App-Header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.App-Header h1 {
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 69px;
+  margin: 8px 0;
+}
+
+.App-Header h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.App-Header--Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 769px) {
+  .App-Header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .App-Header h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .App-Header h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .App-Header--Image {
+    width: 50%;
+    margin-bottom: 8px;
+  }
+}
